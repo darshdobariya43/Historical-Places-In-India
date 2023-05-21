@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Historical Places In India</title>
+	<style>
+		 @keyframes mybox{
+            /* 10%{opacity: 0;}
+            40%{opacity: 1;} */
+
+            /* from{transform: translateX(-100%);
+                opacity: 0;}
+            to{transform: translateY(110%);
+                opacity: 1;} */
+
+            /* 0%{transform: rotate(0deg);}
+            45%{transform: rotate(90deg);}
+            60%{transform: rotate(180deg);}
+            80%{transform: rotate(360deg);}
+            100%{transform: rotate(0deg);} */
+
+            /* 0%{background-color:  rgb(239, 126, 77);
+                } 
+            25%{background-color: rgb(253, 124, 69);
+                }
+            50%{background-color:rgb(243, 106, 48);
+                }
+            75%{background-color: rgb(250, 95, 28);
+                }
+            100%{background-color:rgb(245, 74, 1);
+               	} */
+/* 
+            from
+            {
+                color: rgb(255, 255, 255);
+                background-color: rgb(226, 110, 43);
+            }
+            to
+            {
+                color: rgb(255, 255, 255);
+                background-color: rgb(241, 59, 8);
+            }
+        
+         from{
+            width: 300px;
+         }
+         to{
+            width: 100px;
+         } */
+
+		 from
+            {
+                color:black;
+                border-color: rgb(8, 8, 80);
+            }
+            to
+            {
+                color: blue;
+                border-color: blue;
+            }
+        }
+		body {
+			margin: 0;
+			padding: 0;
+			font-family: Arial, sans-serif;
+			background-color: #f5f5f5;
+		}
+		header {
+			font-family: Verdana, Geneva, Tahoma, sans-serif;
+			position: fixed;
+			top: 0px;
+			left: 0;
+			width: 100%;
+			height: 50px;
+			border-radius: 25px;
+			background-color: #fd6028;
+			color: #fff;
+			padding: 10px 0;
+			text-align: center;
+		
+		}
+		h1{
+			margin-top: auto;
+		}
+		main {
+			padding:80px 0 40px;
+			display: flex;
+			flex-wrap: wrap;
+			justify-content: center;
+			align-items: flex-start;
+			background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/Ashoka_Chakra_1.svg/300px-Ashoka_Chakra_1.svg.png");
+			background-repeat: no-repeat;
+			background-position: center;
+			background-color: #fff;
+			background-size:100%;
+			
+		}
+		figure a{
+			text-align: center ;
+			background-color: #8ea6d3;
+			border-radius: 50px;
+			padding-left: 10px;
+			padding-right: 10px;
+			padding-top: 5px;
+			padding-bottom: 5px;
+			border-style: dotted;
+		}
+		figure {
+			margin: 20px;
+			max-width: 400px;
+			height:490px;
+			border: 43px solid #1900ff;
+			border-radius: 100px;
+			background-color: #ffffff;
+			text-align: center;
+			animation-name: mybox;
+            animation-duration: 5s;
+            animation-iteration-count: infinite;
+		}
+		figure img {
+			display: block;
+			width: 100%;
+			height:250px;
+			border-radius: 50px;
+		}
+		figcaption {
+			font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+			padding: 15px;
+			background-color: #bff1ef;
+			text-align: center;
+			text-overflow: ellipsis;
+			text-overflow: hide;
+			border-radius: 50px;
+			margin-bottom: -5px;
+			
+		}
+		footer {
+			font-family: Verdana, Geneva, Tahoma, sans-serif;
+			position: fixed;
+			bottom: 0;
+			left: 0;
+			width: 100%;
+			height: 30px;
+			background-color: green;
+			color: #fff;
+			padding: 0px 0;
+			text-align: center;
+			border-radius: 25px;
+			
+		}
+		h6{
+			margin-top: 10px;
+		}
+	
+	</style>
+</head>
+<body>
+	<header>
+		<h1>Historical Places In India</h1>
+	</header>
+	<footer>
+		<h6>Made By DARSH</h6>
+	</footer>
+	<main>
+		<figure>
+			<img src="https://images.thrillophilia.com/image/upload/s--ZxQqkqU7--/c_fill,g_center,h_450,q_auto,w_753/dpr_1.5,f_auto,fl_strip_profile/v1/images/photos/000/383/699/original/1651645541_shutterstock_1662357571.jpg.jpg" alt="Taj Mahal">
+			<figcaption>Taj Mahal, Agra - One of the most famous historical sites in India, the Taj Mahal of Agra dates back to the 17th century. It was built by Shah Jahan, the Mughal emperor, in the memory of Mumtaz Mahal, his third wife. It is also the abode of the tomb of Shah Jahan himself.<br></figcaption>
+			<a href="https://en.wikipedia.org/wiki/Taj_Mahal">Read more</a>			
+		</figure>
+		<figure>
+			<img src="https://images.thrillophilia.com/image/upload/s--FIMS32PQ--/c_fill,g_center,h_450,q_auto,w_753/dpr_1.5,f_auto,fl_strip_profile/v1/images/photos/000/383/700/original/1651645919_shutterstock_1418802812.jpg.jpg"  alt="Agra Fort">
+			<figcaption>Agra Fort, UP - One of the oldest historical places in India is the Agra Fort, located in Uttar Pradesh. A true example of the stunning Mughal form of architecture, the 16th century Agra Fort was built during Akbar’s reign and has been recognized as a UNESCO World Heritage Site as well.<br></figcaption>
+			<a href="https://en.wikipedia.org/wiki/Agra_Fort">Read more</a>
+		</figure>
+		<figure>
+			<img src="https://images.thrillophilia.com/image/upload/s--EfHzszeL--/c_fill,g_center,h_450,q_auto,w_753/dpr_1.5,f_auto,fl_strip_profile/v1/images/photos/000/383/701/original/1651646427_shutterstock_418380280.jpg.jpg"  alt="Red Fort">
+			<figcaption>Red Fort, Delhi - When it comes to the famous historical places in India, one cannot miss the Red Fort in Delhi. Also popularly known as the Lal Qila, the Red Fort was constructed during Shah Jahan’s reign in the 17th century.<br></figcaption>
+			<a href="https://en.wikipedia.org/wiki/Red_Fort">Read more</a>
+		</figure>
+		<figure>
+			<img src="https://images.thrillophilia.com/image/upload/s--bZR4YEFU--/c_fill,g_center,h_450,q_auto,w_753/dpr_1.5,f_auto,fl_strip_profile/v1/images/photos/000/383/702/original/1651646655_shutterstock_441171835.jpg.jpg"  alt="Qutub Minar">
+			<figcaption>Qutub Minar, Delhi - Delhi’s Qutub Minar ranks amongst the top 10 historical places in India. A UNESCO World Heritage Site, the Qutub Minar, also known as the Victory Tower, is the tallest brick minaret in the whole world, standing tall at a height of 72.5 metres.<br></figcaption>
+			<a href="https://en.wikipedia.org/wiki/Qutb_Minar">Read more</a>
+		</figure>
+		<figure>
+			<img src="https://images.thrillophilia.com/image/upload/s--nzzhmM3I--/c_fill,g_center,h_450,q_auto,w_753/dpr_1.5,f_auto,fl_strip_profile/v1/images/photos/000/383/703/original/1651646880_shutterstock_1078858838.jpg.jpg"  alt="Fatehpur Sikri">
+			<figcaption>Fatehpur Sikri, Uttar Pradesh - An architectural gem and one of the most exquisite historical places in India is Fatehpur Sikri, a town in the Agra district of Uttar Pradesh. A recognized UNESCO World Heritage Site, Fatehpur Sikri is made predominantly out of red sandstone, and dates back to the late 16th century, when it was founded by Mughal Emperor Akbar.<br></figcaption>
+			<a href="https://en.wikipedia.org/wiki/Fatehpur_Sikri">Read more</a>
+		</figure>
+		<figure>
+			<img src="https://images.thrillophilia.com/image/upload/s--tYtsq8Cu--/c_fill,g_center,h_450,q_auto,w_753/dpr_1.5,f_auto,fl_strip_profile/v1/images/photos/000/383/704/original/1651647055_shutterstock_173584238.jpg.jpg"  alt="Hawa Mahal">
+			<figcaption>Hawa Mahal, Jaipur - Hawa Mahal in Jaipur is one of the best historical places in India, in addition to being a prominent landmark of Rajasthan. Dating back to the 18th century, Hawa Mahal is a 5-storey structure that overlooks the bustling streets of Jaipur. It has also been made in a blend of the Rajput, Mughal and Islamic styles of architecture.<br></figcaption>
+			<a href="https://en.wikipedia.org/wiki/Hawa_Mahal">Read more</a>
+		</figure>
+		<figure>
+			<img src="https://images.thrillophilia.com/image/upload/s--nH5U0QCA--/c_fill,g_center,h_450,q_auto,w_753/dpr_1.5,f_auto,fl_strip_profile/v1/images/photos/000/383/710/original/1651648860_shutterstock_244101571.jpg.jpg"  alt="Meenakshi Amman Templ">
+			<figcaption>Meenakshi Amman Temple, Madurai - Built in the Dravidian style of architecture, the Meenakshi Amman Temple ranks as one of the most beautiful ancient places in India. Built in the early 17th century, the temple is located on the southern banks of the Vaigai river in Madurai, Tamil Nadu.<br></figcaption>
+			<a href="https://en.wikipedia.org/wiki/Meenakshi_Temple">Read more</a>
+		</figure>
+		<figure>
+			<img src="https://images.thrillophilia.com/image/upload/s--iTkL5uca--/c_fill,g_center,h_450,q_auto,w_753/dpr_1.5,f_auto,fl_strip_profile/v1/images/photos/000/383/706/original/1651647716_shutterstock_1311074936.jpg.jpg"  alt="Humayun’s Tomb">
+			<figcaption>Humayun’s Tomb, Delhi - Amongst the oldest historical places in India, Humayun’s Tomb in Delhi, along the banks of the Yamuna River, was also the first garden-tomb in the country. Built by Emperor Humayun’s wife in memory of her husband in the 16th century, this monument is surrounded by double-storied gateways and four gardens, and looks simply phenomenal.<br></figcaption>
+			<a href="https://en.wikipedia.org/wiki/Humayun%27s_Tomb">Read more</a>
+		</figure>
+		<figure>
+			<img src="https://images.thrillophilia.com/image/upload/s--rfA4drvw--/c_fill,g_center,h_450,q_auto,w_753/dpr_1.5,f_auto,fl_strip_profile/v1/images/photos/000/383/707/original/1651648001_shutterstock_1364029607.jpg.jpg"  alt="Khajuraho Temples">
+			<figcaption>Khajuraho Temples, Madhya Pradesh - The famous Khajuraho Temples in Madhya Pradesh are amongst the top 10 historical places in India, popular for being home to a total of 85 Hindu and Jain temples, spread across three complexes. It is here where you can see intricate rock carvings portraying dance, music, in addition to learning about the rich culture of the region during the medieval period.<br></figcaption>
+			<a href="https://en.wikipedia.org/wiki/Khajuraho_Group_of_Monuments">Read more</a>
+		</figure>
+		<figure>
+			<img src="https://images.thrillophilia.com/image/upload/s--Y-vYL-G---/c_fill,g_center,h_450,q_auto,w_753/dpr_1.5,f_auto,fl_strip_profile/v1/images/photos/000/383/716/original/1651650884_shutterstock_789617782.jpg.jpg"  alt="Amer Fort">
+			<figcaption>Amer Fort, Jaipur - Jaipur’s Amer Fort is another one of the most famous historical places in India. Built by Maharaja Man Singh in the 16th century, this fort is said to be amongst the most ancient monuments in the country. It boasts of intricately carved walls, opulent ceilings, multiple courtyards, as well as stunning entry gates.<br></figcaption>
+			<a href="https://en.wikipedia.org/wiki/Amber_Fort">Read more</a>
+		</figure>
+	</main>
+</boady>
+</html>
+			
